@@ -62,7 +62,7 @@ public class ScreenshotTile extends QSTileImpl<BooleanState> {
         mHost.collapsePanels();
         /* wait for the panel to close */
         try {
-             Thread.sleep(1500);
+             Thread.sleep(1000);
         } catch (InterruptedException ie) {
              // Do nothing
         }
@@ -74,7 +74,7 @@ public class ScreenshotTile extends QSTileImpl<BooleanState> {
         mHost.collapsePanels();
         /* wait for the panel to close */
         try {
-             Thread.sleep(1500);
+             Thread.sleep(1000);
         } catch (InterruptedException ie) {
              // Do nothing
         }
